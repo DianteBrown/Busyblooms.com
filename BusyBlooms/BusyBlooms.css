@@ -1,0 +1,97 @@
+@font-face {
+    font-family: 'airStrip4';
+    src: url('Fonts/airstrip.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'roboto';
+    src: url('Fonts/Roboto/Roboto-Regular.ttf') format('truetype');
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #25342F;
+    font-family: 'roboto', sans-serif;
+    color:#FFFAE0;
+}
+.headerNav {
+    width: 100%;
+    background-color: #121317;
+    padding: 1% 0;
+    display: flex;
+    /* justify-content: space-between;
+    /* align-items: center; */
+    border-bottom: 1px solid #CAF8CA;
+}
+.headerNav .logo {
+    max-width: 250px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+.headerNav .social-icon {
+  max-width: 40px;
+  float: right;
+  margin: 10px;
+}
+.missionStatement, .growTower360{
+    width: 75%;
+    background-color: #121317;
+    border: 1px solid #CAF8CA;
+    margin: 125px auto;
+    padding: 250px 100px;
+    text-align: center;
+}
+.missionStatement h1, .growTower360 h1 {
+    color: #CAF8CA;
+    font-family: 'airStrip4';
+    font-size: 4em;
+    padding-bottom: 5%;
+}
+.missionStatement p, .growTower360 p {
+    color: #FFFAE0;
+    font-size: 2em;
+}
+.growTower360 .product-image {
+    width: 100%;
+    max-width: 500px;
+    margin: 20px 0;
+}
+.preOrder button {
+    background-color: #121317;
+    color: #CAF8CA;
+    border: 2px solid #CAF8CA;
+    padding: 10px 20px;
+    font-size: 1.5em;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    margin: 20px auto;
+
+}
+.preOrder button:hover {
+    background-color: #CAF8CA;
+    color: #121317;
+}
+
+.footer{
+  width: 100%;
+  background-color: #121317;
+  height: 100%;
+}
+
+.footer .logo {
+  max-width: 250px;
+  margin-left: 20px;
+}
+.footer p {
+    color: #CAF8CA;
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+.footer .social-icon {
+    max-width: 40px;
+    float: right;
+    margin: 10px;
+}
